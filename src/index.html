@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!--Menu-->
+    <nav class="bg-primary text-white">
+        <div class="container py-3">
+            <!-- Iconos de menú -->
+            <div id="open" class="md:hidden cursor-pointer">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="close" class="md:hidden cursor-pointer hidden">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <!-- Menú -->
+            <ul id="menu" class="hidden md:flex gap-3">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Banner-->
+    <div class="bg-[url('img/Baner.png')] bg-no-repeat bg-center bg-cover">
+        <div class="container flex flex-col gap-3 text-center items-center py-7">
+            <img src="img/State.jpg" alt="Imagen en rombo" class="w-96 rounded-2xl object-cover">
+            <h2>Tener la casa de tus sueños es posible <br><span class="">Nosotros te ayudamos</span></h2>
+            <a href="#" class="btn btn-primary max-w-44">Contactanos</a>
+        </div>
+    </div>
+
+    <!--Proyectos-->
+    <div class="container py-3 pt-14">
+        <h2>Proyectos destacados</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper py-7">
+                <div class="swiper-slide">
+                    <div class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                        <img src="img/Proyecto.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                        <div class="flex justify-between px-3 ">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3 class=""> Guacamayas</h3>
+                        </div>
+                        <div class="flex justify-between font-semibold px-3 pb-3">
+                            <p>$45.000.000</p>
+                            <p>42mts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                        <img src="img/State.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                        <div class="flex justify-between px-3 ">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3 class="">Velez</h3>
+                        </div>
+                        <div class="flex justify-between font-semibold px-3 pb-3">
+                            <p>$45.000.000</p>
+                            <p>42mts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                        <img src="img/Real.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                        <div class="flex justify-between px-3 ">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3 class="">Fontibon</h3>
+                        </div>
+                        <div class="flex justify-between font-semibold px-3 pb-3">
+                            <p>$45.000.000</p>
+                            <p>42mts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                        <img src="img/State.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                        <div class="flex justify-between px-3 ">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3 class="">Centro</h3>
+                        </div>
+                        <div class="flex justify-between font-semibold px-3 pb-3">
+                            <p>$45.000.000</p>
+                            <p>42mts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                        <img src="img/Proyecto.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                        <div class="flex justify-between px-3 ">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3 class="">Velez</h3>
+                        </div>
+                        <div class="flex justify-between font-semibold px-3 pb-3">
+                            <p>$45.000.000</p>
+                            <p>42mts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            
+        </div>
+    </div>
+    <!--Proyectos por zonas-->
+    <div class="bg-[url('img/Real.jpg')] bg-no-repeat bg-cover bg-center text-center py-14 my-7">
+        <div class="container">
+            <h2 class="text-black max-w-md mx-auto font-semibold mb-3">Encuentra la casa de tus sueños</h2>
+            <div class="bg-primary bg-opacity-60 rounded-md mb-3">
+                <div class="flex gap-3 p-3">
+                    <a href="#" class="btn btn-transparent">Norte</a>
+                    <a href="#" class="btn btn-transparent">Sur</a>
+                    <a href="#" class="btn btn-transparent">Occidente</a>
+                    <a href="#" class="btn btn-transparent">Oriente</a>
+                </div>
+            </div>
+            <div class="flex items-center border border-primary bg-white bg-opacity-70 rounded-md px-3 py-1">
+                <input type="text" placeholder="Buscar por zona"
+                    class="outline-none bg-transparent text-center placeholder-primaryDark w-full">
+                <i class="fa-solid fa-magnifying-glass text-primary"></i>
+            </div>
+        </div>
+    </div>
+
+    <!--Beneficios-->
+    
+        <div class="container">
+            <h2 class="py-3">Beneficios</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-14 pb-7">
+                <div class="flex flex-col items-center gap-1">
+                    <i class="fa-regular fa-building text-8xl text-primaryDark"></i>
+                    <h3 class="font-semibold">Busqueda</h3>
+                    <p class="text-xs text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
+                        voluptatem eligendi voluptate at nobis dignissimos, assumenda et! Quidem ratione harum fuga
+                        aspernatur?</p>
+                </div>
+                <div class="flex flex-col items-center gap-1">
+                    <i class="fa-solid fa-check text-8xl text-primaryDark"></i>
+                    <h3 class="font-semibold">Facilidad</h3>
+                    <p class="text-xs text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
+                        voluptatem eligendi voluptate at nobis dignissimos, assumenda et! Quidem ratione harum fuga
+                        aspernatur?</p>
+                </div>
+                <div class="flex flex-col items-center gap-1">
+                    <i class="fa-regular fa-building text-8xl text-primaryDark"></i>
+                    <h3 class="font-semibold">Busqueda</h3>
+                    <p class="text-xs text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
+                        voluptatem eligendi voluptate at nobis dignissimos, assumenda et! Quidem ratione harum fuga
+                        aspernatur?</p>
+                </div>
+            </div>
+        </div>
+
+
+    <!--Proyectos-->
+    <div class="container border-t-2 py-7">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-14">
+            <div class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                <img src="img/Proyecto.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                <div class="flex justify-between px-3 ">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3 class="">Velez</h3>
+                </div>
+                <div class="flex justify-between font-semibold px-3 pb-3">
+                    <p>$45.000.000</p>
+                    <p>42mts</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                <img src="img/Proyecto.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                <div class="flex justify-between px-3 ">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3 class="">Velez</h3>
+                </div>
+                <div class="flex justify-between font-semibold px-3 pb-3">
+                    <p>$45.000.000</p>
+                    <p>42mts</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                <img src="img/Proyecto.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                <div class="flex justify-between px-3 ">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3 class="">Velez</h3>
+                </div>
+                <div class="flex justify-between font-semibold px-3 pb-3">
+                    <p>$45.000.000</p>
+                    <p>42mts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="bg-[url('img/Baner.png')] bg-no-repeat bg-bottom h-52 bg-cover">
+        <div class="grid grid-cols-1 md:grid-cols-3 text-center items-center h-52 container py-7">
+            <div class="text-primaryDark">
+                <h2>Inmobiliaria DM</h2>
+            </div>
+            <div class="text-primaryDark">
+                <div class="flex gap-3 justify-center">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+57 3123810000</p>
+                </div>
+                <div class="flex gap-3 justify-center">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Calle 6 #12 34</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-3 text-white">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            }
+            });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

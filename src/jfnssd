@@ -1,0 +1,106 @@
+ <div class="container py-7">
+        <div class="flex py-3">
+            <a href="#" class="btn btn-primary">Norte</a>
+            <a href="#" class="btn btn-secondary">Sur</a>
+            <a href="#" class="btn btn-secondary">Occidente</a>
+            <a href="#" class="btn btn-secondary">Oriente</a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-7">
+            <!--card-->
+            <div id="norte" class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                <img src="img/Proyecto.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                <div class="flex justify-between px-3 ">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3 class="">Velez</h3>
+                </div>
+                <div class="flex justify-between font-semibold px-3 pb-3">
+                    <p>$45.000.000</p>
+                    <p>42mts</p>
+                </div>
+            </div>
+            <!--card-->
+            <div id="norte" class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                <img src="img/Proyecto.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                <div class="flex justify-between px-3 ">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3 class="">Velez</h3>
+                </div>
+                <div class="flex justify-between font-semibold px-3 pb-3">
+                    <p>$45.000.000</p>
+                    <p>42mts</p>
+                </div>
+            </div>
+            <!--card-->
+            <div id="norte" class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                <img src="img/Proyecto.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                <div class="flex justify-between px-3 ">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3 class="">Velez</h3>
+                </div>
+                <div class="flex justify-between font-semibold px-3 pb-3">
+                    <p>$45.000.000</p>
+                    <p>42mts</p>
+                </div>
+            </div>
+            <!--card-->
+            <div id="norte" class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                <img src="img/Proyecto.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                <div class="flex justify-between px-3 ">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3 class="">Velez</h3>
+                </div>
+                <div class="flex justify-between font-semibold px-3 pb-3">
+                    <p>$45.000.000</p>
+                    <p>42mts</p>
+                </div>
+            </div>
+            <!--card-->
+            <div id="sur" class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                <img src="img/Proyecto.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                <div class="flex justify-between px-3 ">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3 class="">Velez</h3>
+                </div>
+                <div class="flex justify-between font-semibold px-3 pb-3">
+                    <p>$45.000.000</p>
+                    <p>42mts</p>
+                </div>
+            </div>
+            <!--card-->
+            <div id="sur" class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                <img src="img/Proyecto.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                <div class="flex justify-between px-3 ">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3 class="">Velez</h3>
+                </div>
+                <div class="flex justify-between font-semibold px-3 pb-3">
+                    <p>$45.000.000</p>
+                    <p>42mts</p>
+                </div>
+            </div>
+            <!--card-->
+            <div id="sur" class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                <img src="img/Proyecto.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                <div class="flex justify-between px-3 ">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3 class="">Velez</h3>
+                </div>
+                <div class="flex justify-between font-semibold px-3 pb-3">
+                    <p>$45.000.000</p>
+                    <p>42mts</p>
+                </div>
+            </div>
+            <!--card-->
+            <div id="oriente" class="flex flex-col gap-3 border border-primary rounded-2xl text-primaryDark">
+                <img src="img/Proyecto.jpg" alt="proyecto" class="rounded-t-2xl h-36 w-full">
+                <div class="flex justify-between px-3 ">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3 class="">Velez</h3>
+                </div>
+                <div class="flex justify-between font-semibold px-3 pb-3">
+                    <p>$45.000.000</p>
+                    <p>42mts</p>
+                </div>
+            </div>
+        </div>
+    </div>
